@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Radar chart</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+		<script src="RadarChart.js"></script>
+	<style>
+		body {
+		  overflow: hidden;
+		  margin: 30;
+		  padding: 20px;
+		  font-size: 14px;
+		  font-family: "Lucida Bright", Serif;
+		  color: #FFFFFF;
+		  background-color: #9d1807;
+		}
+
+		#chart {
+			position: absolute;
+			left: 400px;
+			top: 40px;
+		}
+	</style>
+  </head>
+
+<body>
+<table align="left">
+<table style="width:340px" "height:100%">
+  <tr>
+	  <td>
+			<font size="7">Artifacts of Colonialist Language</font>
+			<br><br>
+		  <p>A word count comparision of the words <a href="https://www.metmuseum.org/art/collection/search#!?q=exotic&perPage=20&offset=0&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All" style="color:#ffcc99;">Exotic</a>, <a href="https://www.metmuseum.org/search-results#!/search?q=primitive&orderByCountDesc=true&page=1&searchFacet=Art" style="color:#ffcc99;">Primitive</a> and <a href="https://www.metmuseum.org/art/collection/search#!?q=oriental&perPage=20&offset=0&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All" style="color:#ffcc99;">Oriental</a> across departments on the Metropolitan Museum of Art website.
+		  <p>Museums around the world are grappling with their colonialist and imperialist history. For various reasons, the repatriation of artifacts/objects to their culture of origin may not always be possible so, to what degree should institutions consider other methods of acknowledgment? For example, the language it uses to describe objects in its catalog.
+
+		  <p>Should institutions address this history? Where does one draw the line of acceptability vs. accountability?</p>
+		 
+			<h3>Occurrences of the word <i>Primitive</i></h3>
+			</font>
+	<table>
+		<tbody>
+    <table cellpadding="4"><tr>
+      <td><font>
+			<font size="20"color="#ffcc99"><b><center>3506</center></b></td>
+      <td><p>in the Arts of Africa, Oceania, and the Americas department.</p></td>
+      </font>
+       </tr>
+      <td><font face="Lucida bright">
+				<font size="20"color="#ffcc99"><b><center>335</center></b></font></td>
+      <td><p>across all other departments.</p></td>
+       </tr>
+    </tbody>
+	</table>
+
+	<div id="body">
+	<div id="chart"></div>
+	</div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
